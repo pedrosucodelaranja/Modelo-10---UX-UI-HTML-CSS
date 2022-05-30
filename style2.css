@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+li,a {
+    color:#fff;
+    text-decoration: none;
+    transition: 1s;
+}
+a:hover {
+    opacity: 0.7;
+}
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #23232e;
+    height: 8vh;
+}
+main{
+   background: url("imagens/wheat.jpg") no-repeat
+   center center;
+    background-size: cover;
+    height: 92vh;
+}
+.nav_list{
+    list-style: none;
+   display: flex;
+}
+.nav_list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+.contact-in{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.659);
+    box-shadow: 0px 0px 10px 0px #666;
+    margin-top: 130px;
+}
+.contact-map {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%; 
+    padding: 30px;
+   
+}
+
+.contact-form h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #331d02;
+}
+.contact-form-text {
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.contact-form-text::placeholder{
+    color: #aaa;
+}
+.contact-form-txtarea {
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.contact-form-txtarea::placeholder{
+    color: #aaa;
+}
+.contact-form-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #D79D57;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
